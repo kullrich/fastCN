@@ -32,8 +32,8 @@ normalize.close()
 maxCov = math.ceil(maxCov)
 ave = ave / count
 
-x1 = numpy.array(x[100:301], numpy.float)
-y1 = numpy.array(y[100:301], numpy.float)
+x1 = numpy.array(x[100:301], float)
+y1 = numpy.array(y[100:301], float)
 result = lowess(x1,y1,f=.15).tolist()
 coff_left = numpy.polyfit(x[100:105],result[0:5],1)
 coff_right = numpy.polyfit(x[296:301],result[196:201],1)
