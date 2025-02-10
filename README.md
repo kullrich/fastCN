@@ -213,7 +213,7 @@ Sample output is given in the 'sample-out' directory of this repository.
 Other potentially useful scripts are included in the 'other-scripts' directory.
 
 ### How to make other sizes of windows
-Check out `make-equal-windows.py`  This program allows you to make windows of any size. Each window
+Check out `make-equal-windows.py` (other-scripts/make-equal-windows.py) This program allows you to make windows of any size. Each window
 will contain the same number of unmasked bp.
 
 ### How to make a bedgraph track for display on the UCSC genome browser
