@@ -46,7 +46,7 @@ for line in inFile:
     cLen = int(line[1])
     chromNames.append(c)
     nameToLen[c] = cLen
-    chromMask[c] = np.zeros(cLen+1,dtype=np.int)
+    chromMask[c] = np.zeros(cLen+1,dtype=int)
 inFile.close()
 
 print('Setup empty arrays')
