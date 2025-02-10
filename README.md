@@ -1,3 +1,10 @@
+# this is a fork from fastCN
+
+changes:
+
+- converted: `np.float` >>> `float`; `np.int` >>> `int`
+- added a hint, where to find `make-equal-windows.py`
+
 # fastCN
 
 A pipeline for the fast estimation of copy-number based on read depth using
@@ -27,7 +34,8 @@ Setup a directory to download and work from.  Clone the repository and compile t
 There may be some compiler warnings.
 
 ```
-git clone https://github.com/KiddLab/fastCN.git 
+#git clone https://github.com/KiddLab/fastCN.git
+git clone https://github.com/kullrich/fastCN.git 
 
 cd fastCN
 g++ -o GC_control_gen GC_control_gen.cc 
